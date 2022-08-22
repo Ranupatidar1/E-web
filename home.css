@@ -1,0 +1,44 @@
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    color: orange;
+    font-size: 2rem;
+    margin: .8rem 1rem ;
+}
+.main input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 21vw;
+    
+ }
+ .main a button {
+    padding: 5px;
+    border: 1px solid black;
+     border-radius: 3px;
+     width: 22vw;
+    
+ }
+ .btn {
+   background-color: orange;
+    
+ }
+
+ .main{
+    
+    width: 290px;
+    height: 380px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: white
+}
+@media (max-width:500px){
+    .header-logo{
+      flex-direction: column;
+    }
+  }
